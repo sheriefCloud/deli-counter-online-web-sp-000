@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     message = "The line is currently: "
     counter = 0
-    until counter == katz_deli.size + 1 do
+    until counter == katz_deli.size do
       message = message + "#{counter+1}. #{katz_deli[counter]} "
 #binding.pry
       counter += 1
