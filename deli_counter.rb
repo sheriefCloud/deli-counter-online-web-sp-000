@@ -9,7 +9,7 @@ def line(katz_deli)
     until counter == katz_deli.size
       message = message + #{counter} + #{katz_deli[counter]}
       counter += 1
-    
+
   end
   return message
 end
