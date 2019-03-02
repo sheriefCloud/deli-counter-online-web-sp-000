@@ -10,7 +10,7 @@ def line(katz_deli)
     counter = 0
     until counter == katz_deli.size + 1 do
       message = message + "#{counter+1}. #{katz_deli[counter]} "
-binding.pry
+#binding.pry
       counter += 1
     end
       return message
