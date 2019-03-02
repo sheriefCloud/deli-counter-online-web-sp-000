@@ -13,7 +13,7 @@ def line(katz_deli)
 #binding.pry
       counter += 1
     end
-      
+
   end
   return message
 end
