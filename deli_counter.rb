@@ -8,9 +8,9 @@ def line(katz_deli)
   else
     until counter == katz_deli.size do
       message = message + #{counter} + #{katz_deli[counter]}
-      counter += 1      
+      counter += 1
     end
       return message
   end
-  
+
 end
