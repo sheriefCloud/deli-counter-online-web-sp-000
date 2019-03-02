@@ -9,7 +9,7 @@ def line(katz_deli)
     message = "The line is currently: "
     counter = 0
     until counter == katz_deli.size do
-      message = message + "#{counter}.to_string. #{katz_deli[counter]}"
+      message = message + "#{counter+1}. #{katz_deli[counter]}"
 binding.pry
       counter += 1
     end
