@@ -15,5 +15,5 @@ def line(katz_deli)
     end
 
   end
-  return message
+  puts message
 end
