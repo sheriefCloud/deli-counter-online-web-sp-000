@@ -21,7 +21,7 @@ end
 def take_a_number(katz_deli,person)
 
     katz_deli << person
-    line(katz_deli)
+    puts "Welcome, #{person}. You are currently Number #{katz_deli.size} in line."
 
 
 
