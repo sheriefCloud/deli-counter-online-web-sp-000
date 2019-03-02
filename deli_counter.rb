@@ -8,7 +8,7 @@ def line(katz_deli)
     message = "The line is currently: "
     counter = 0
     until counter == katz_deli.size do
-      message = message + #{counter} + #{katz_deli[counter]}
+      message = message + #{counter}.to_string + #{katz_deli[counter]}
       counter += 1
     end
       return message
